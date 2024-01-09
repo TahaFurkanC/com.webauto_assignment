@@ -3,10 +3,12 @@ package utils;
 import pages.HomePage;
 import pages.WebAutomationPage;
 import pages.alerts.AlertTypes_Page;
+import pages.autoComplete.MultipleAndRemote_Page;
 import pages.draggable.AutoScrolling_Page;
 import pages.draggable.ConstrainMovement;
 import pages.draggable.Draggable_DefFunc_Page;
 import pages.droppable.Droppable_DefFunc_Page;
+import pages.droppable.RevertDraggablePosition;
 import pages.iframe.NestedIframe_Page;
 import pages.resizable.Animate_Page;
 import pages.resizable.Resizable_DefFunc_Page;
@@ -28,6 +30,7 @@ public class Pages {
 
     private HomePage homePage;
 
+    private MultipleAndRemote_Page multipleAndRemotePage;
     private NestedIframe_Page nestedIframePage;
 
     private Resizable_DefFunc_Page resizableDefFuncPage;
@@ -35,7 +38,10 @@ public class Pages {
     private Selectable_DefFunc_Page selectableDefFuncPage;
 
     private WebAutomationPage webAutomationPage;
+
+    private RevertDraggablePosition revertDraggablePosition;
     public Pages() {
+        revertDraggablePosition = new RevertDraggablePosition();
         homePage = new HomePage();
         webAutomationPage = new WebAutomationPage();
         draggableDefFuncPage = new Draggable_DefFunc_Page();
@@ -47,8 +53,12 @@ public class Pages {
         alertTypesPage = new AlertTypes_Page();
         animatePage = new Animate_Page();
         constrainMovement = new ConstrainMovement();
+        multipleAndRemotePage = new MultipleAndRemote_Page();
     }
 
+    public RevertDraggablePosition getRevertDraggablePosition(){
+        return revertDraggablePosition;
+    }
     public HomePage getHomePage() {
         return homePage;
     }
@@ -91,6 +101,10 @@ public class Pages {
 
     public ConstrainMovement getConstrainMovement(){
         return constrainMovement;
+    }
+
+    public MultipleAndRemote_Page getMultipleAndRemotePage(){
+        return multipleAndRemotePage;
     }
 
 }

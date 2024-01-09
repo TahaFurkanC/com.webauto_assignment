@@ -18,10 +18,9 @@ public class Hooks {
             Driver.getDriver().navigate().refresh();
         }
     }
-
+//
 //    @AfterAll
 //    public static void tearDown() {
 //        Driver.closeDriver();
 //    }
-
 }

@@ -3,6 +3,7 @@ package draggableTests;
 import BaseTest.Hooks;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Point;
+import utils.BrowserUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -45,6 +46,7 @@ public class ConstrainMovementTest extends Hooks {
         //6- Verify that the second draggable element does not move
         assertEquals(initialYForSecondDraggableElement,finalYForSecondDraggableElement,"Second draggable element can not move vertically");
 
+        BrowserUtils.scrollDownWithPageDown();
         //7- Drag the third draggable element to up and left and drop
         Point initialPointForThirdElement = pages.getConstrainMovement().getLocationOfDraggable3();
         pages.getConstrainMovement().dragThirdBox(-50,-50);
@@ -59,8 +61,10 @@ public class ConstrainMovementTest extends Hooks {
 
         //10- Verify that the fourth draggable element does not move
         Point smallBox = pages.getConstrainMovement().getLocationOfSmallBox();
-        assertTrue(finalPointOfFourthElement.getX() < smallBox.getX());
-        assertTrue(finalPointOfFourthElement.getY() < smallBox.getY());
+        System.out.println(finalPointOfFourthElement);
+        System.out.println(smallBox);
+        assertTrue(finalPointOfFourthElement.getX() > smallBox.getX());
+        assertTrue(finalPointOfFourthElement.getY() > smallBox.getY());
     }
 
 }

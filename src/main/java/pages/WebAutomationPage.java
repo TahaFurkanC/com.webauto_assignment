@@ -40,6 +40,26 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Constrain Movement")
     private WebElement constrainMovementLink;
 
+    @FindBy(linkText = "Autocomplete")
+    private WebElement autoCompleteLink;
+
+    @FindBy(linkText = "Multiple & Remote")
+    private WebElement multipleAndRemoteLink;
+
+    @FindBy(linkText = "Revert draggable position")
+    private WebElement revertDraggablePositionLink;
+
+    public void clickOnRevertDraggablePositionLink(){
+        revertDraggablePositionLink.click();
+    }
+
+    public void clickOnAutocompleteLink(){
+        autoCompleteLink.click();
+    }
+    public void clickMultipleAndRemoteLink(){
+        multipleAndRemoteLink.click();
+    }
+
     public void clickOnDraggableLink() {
         draggableLink.click();
     }
