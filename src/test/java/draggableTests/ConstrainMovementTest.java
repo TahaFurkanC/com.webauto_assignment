@@ -23,7 +23,7 @@ public class ConstrainMovementTest extends Hooks {
 
     @Test
     public void testConstrainMovement(){
-        //1- Open the url and navigate to the Web Automation
+        //1- Open the url and go to the Web Automation
         pages.getHomePage().clickOnWebAutomationLink();
 
         //2- Click on the Constrain Movement
