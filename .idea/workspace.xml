@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13b756a8-9382-4a9f-bc1a-a1cd6ae71dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/autoComplete/MultipleAndRemote_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/droppable/RevertDraggablePosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/autoCompleteTest/AutoCompleteMultiRemoteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/resizable/SynchronousResize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resizableTest/SynchronousResizeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebAutomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebAutomationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/droppable/RevertDraggablePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/droppable/RevertDraggablePosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JSUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/draggableTests/ConstrainMovementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggableTests/ConstrainMovementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,50 +51,18 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/workspace/com.webautomation&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RevertDraggablePositionTest">
-    <configuration name="AutoCompleteMultiRemoteTest.testMultipleAndRemoteAutoComplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SynchronousResizeTest.SynchronousResizeTest">
+    <configuration name="Animate_Test.testAnimate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="autoCompleteTest.*" />
+          <option name="PATTERN" value="resizableTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="autoCompleteTest" />
-      <option name="MAIN_CLASS_NAME" value="autoCompleteTest.AutoCompleteMultiRemoteTest" />
-      <option name="METHOD_NAME" value="testMultipleAndRemoteAutoComplete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstrainMovementTest.testConstrainMovement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.webauto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="draggableTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="draggableTests" />
-      <option name="MAIN_CLASS_NAME" value="draggableTests.ConstrainMovementTest" />
-      <option name="METHOD_NAME" value="testConstrainMovement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Draggable_AutoScrolling_Test.testAutoScrolling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.webauto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="draggableTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="draggableTests" />
-      <option name="MAIN_CLASS_NAME" value="draggableTests.Draggable_AutoScrolling_Test" />
-      <option name="METHOD_NAME" value="testAutoScrolling" />
+      <option name="PACKAGE_NAME" value="resizableTest" />
+      <option name="MAIN_CLASS_NAME" value="resizableTest.Animate_Test" />
+      <option name="METHOD_NAME" value="testAnimate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,6 +99,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SynchronousResizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webauto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resizableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resizableTest" />
+      <option name="MAIN_CLASS_NAME" value="resizableTest.SynchronousResizeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronousResizeTest.SynchronousResizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webauto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resizableTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resizableTest" />
+      <option name="MAIN_CLASS_NAME" value="resizableTest.SynchronousResizeTest" />
+      <option name="METHOD_NAME" value="SynchronousResizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="com.webautomation" />
       <method v="2">
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RevertDraggablePositionTest" />
+        <item itemvalue="JUnit.SynchronousResizeTest.SynchronousResizeTest" />
+        <item itemvalue="JUnit.SynchronousResizeTest" />
+        <item itemvalue="JUnit.Animate_Test.testAnimate" />
         <item itemvalue="JUnit.RevertDraggablePositionTest.testRevertDraggablePosition" />
-        <item itemvalue="JUnit.AutoCompleteMultiRemoteTest.testMultipleAndRemoteAutoComplete" />
-        <item itemvalue="JUnit.ConstrainMovementTest.testConstrainMovement" />
-        <item itemvalue="JUnit.Draggable_AutoScrolling_Test.testAutoScrolling" />
+        <item itemvalue="JUnit.RevertDraggablePositionTest" />
       </list>
     </recent_temporary>
   </component>

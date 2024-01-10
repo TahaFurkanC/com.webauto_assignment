@@ -22,10 +22,10 @@ public class RevertDraggablePosition extends BasePage{
         return nonReturningBox.getLocation();
     }
     public void dragAndDropForReturningBox(){
-        actions.dragAndDrop(returningBox,targetBox);
+        actions.dragAndDrop(returningBox,targetBox).perform();
     }
     public void dragAndDropForNonReturningBox(){
-        actions.dragAndDrop(nonReturningBox,targetBox);
+        actions.dragAndDrop(nonReturningBox,targetBox).perform();
     }
 
 }

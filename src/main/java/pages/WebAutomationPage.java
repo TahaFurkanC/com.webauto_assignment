@@ -49,6 +49,13 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Revert draggable position")
     private WebElement revertDraggablePositionLink;
 
+    @FindBy(linkText = "Synchronus Resize")
+    private WebElement synchronusResizeLink;
+
+    public void clickOnSynchronusResizeLink(){
+        synchronusResizeLink.click();
+    }
+
     public void clickOnRevertDraggablePositionLink(){
         revertDraggablePositionLink.click();
     }

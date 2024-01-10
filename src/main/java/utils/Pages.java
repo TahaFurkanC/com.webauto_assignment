@@ -12,6 +12,7 @@ import pages.droppable.RevertDraggablePosition;
 import pages.iframe.NestedIframe_Page;
 import pages.resizable.Animate_Page;
 import pages.resizable.Resizable_DefFunc_Page;
+import pages.resizable.SynchronousResize;
 import pages.selectable.Selectable_DefFunc_Page;
 
 public class Pages {
@@ -40,6 +41,8 @@ public class Pages {
     private WebAutomationPage webAutomationPage;
 
     private RevertDraggablePosition revertDraggablePosition;
+
+    private SynchronousResize synchronousResize;
     public Pages() {
         revertDraggablePosition = new RevertDraggablePosition();
         homePage = new HomePage();
@@ -54,6 +57,11 @@ public class Pages {
         animatePage = new Animate_Page();
         constrainMovement = new ConstrainMovement();
         multipleAndRemotePage = new MultipleAndRemote_Page();
+        synchronousResize = new SynchronousResize();
+    }
+
+    public SynchronousResize getSynchronousResize() {
+        return synchronousResize;
     }
 
     public RevertDraggablePosition getRevertDraggablePosition(){

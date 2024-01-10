@@ -22,6 +22,7 @@ public class RevertDraggablePositionTest extends Hooks{
 
         pages.getRevertDraggablePosition().dragAndDropForReturningBox();
 
+        BrowserUtils.wait(5);
         Point finalLocationOfReturnigBox = pages.getRevertDraggablePosition().getLocationOfReturningBox();
 
         assertEquals(initialLocationOfReturnigBox,finalLocationOfReturnigBox,"First Box can not stay in the Target box");
