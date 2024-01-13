@@ -7,13 +7,19 @@ import pages.autoComplete.MultipleAndRemote_Page;
 import pages.draggable.AutoScrolling_Page;
 import pages.draggable.ConstrainMovement;
 import pages.draggable.Draggable_DefFunc_Page;
+import pages.draggable.HandlesTab;
+import pages.droppable.AcceptTab;
 import pages.droppable.Droppable_DefFunc_Page;
 import pages.droppable.RevertDraggablePosition;
 import pages.iframe.NestedIframe_Page;
 import pages.resizable.Animate_Page;
 import pages.resizable.Resizable_DefFunc_Page;
 import pages.resizable.SynchronousResize;
+import pages.resizable.TextAreaPage;
 import pages.selectable.Selectable_DefFunc_Page;
+import pages.selectable.SerializePage;
+
+import java.awt.*;
 
 public class Pages {
 
@@ -38,12 +44,22 @@ public class Pages {
 
     private Selectable_DefFunc_Page selectableDefFuncPage;
 
+    private SerializePage serializePage;
+
     private WebAutomationPage webAutomationPage;
 
     private RevertDraggablePosition revertDraggablePosition;
 
     private SynchronousResize synchronousResize;
+
+    private TextAreaPage textAreaPage;
+
+    private HandlesTab handlesTab;
+
+    private AcceptTab acceptTab;
     public Pages() {
+        serializePage = new SerializePage();
+        handlesTab = new HandlesTab();
         revertDraggablePosition = new RevertDraggablePosition();
         homePage = new HomePage();
         webAutomationPage = new WebAutomationPage();
@@ -58,8 +74,23 @@ public class Pages {
         constrainMovement = new ConstrainMovement();
         multipleAndRemotePage = new MultipleAndRemote_Page();
         synchronousResize = new SynchronousResize();
+        textAreaPage = new TextAreaPage();
+        acceptTab = new AcceptTab();
     }
 
+    public SerializePage getSerializePage(){
+        return serializePage;
+    }
+    public AcceptTab getAcceptTab(){
+        return acceptTab;
+    }
+
+    public HandlesTab getHandlesTab(){
+        return handlesTab;
+    }
+    public TextAreaPage getTextAreaPage(){
+        return textAreaPage;
+    }
     public SynchronousResize getSynchronousResize() {
         return synchronousResize;
     }

@@ -10,6 +10,9 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Draggable")
     private WebElement draggableLink;
 
+    @FindBy(linkText = "Handles")
+    private WebElement handlesLink;
+
     @FindBy(linkText = "Default Functionality")
     private WebElement defaultFunctionalityLink;
 
@@ -19,11 +22,17 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Droppable")
     private WebElement droppableLink;
 
+    @FindBy(linkText = "Accept")
+    private WebElement acceptLink;
+
     @FindBy(linkText = "Resizable")
     private WebElement resizableLink;
 
     @FindBy(linkText = "Selectable")
     private WebElement selectableLink;
+
+    @FindBy(linkText = "Serialize")
+    private WebElement serializeLink;
 
     @FindBy(linkText = "Iframe")
     private WebElement iframeLink;
@@ -51,6 +60,26 @@ public class WebAutomationPage extends BasePage {
 
     @FindBy(linkText = "Synchronus Resize")
     private WebElement synchronusResizeLink;
+
+    @FindBy (linkText = "Textarea")
+    private WebElement textAreaLink;
+
+    public void clickOnSerializeLink(){
+        serializeLink.click();
+    }
+
+    public void clickOnAcceptLink(){
+        acceptLink.click();
+    }
+
+    public void clickOnHandlesLink(){
+        handlesLink.click();
+    }
+
+
+    public void clickOnTextAreaLink(){
+        textAreaLink.click();
+    }
 
     public void clickOnSynchronusResizeLink(){
         synchronusResizeLink.click();
