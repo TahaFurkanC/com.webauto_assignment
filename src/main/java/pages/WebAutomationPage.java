@@ -19,6 +19,12 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Auto Scrolling")
     private WebElement autoScrollingLink;
 
+    @FindBy(linkText = "Datepicker")
+    private WebElement datePicker;
+
+    @FindBy(linkText = "Display Multiple Months")
+    private WebElement displayMultipleMonths;
+
     @FindBy(linkText = "Droppable")
     private WebElement droppableLink;
 
@@ -37,6 +43,9 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Iframe")
     private WebElement iframeLink;
 
+    @FindBy(linkText = "Normal Iframe")
+    private WebElement normalIframe;
+
     @FindBy(linkText = "Nested Iframe")
     private WebElement nestedIframeLink;
 
@@ -52,6 +61,9 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Autocomplete")
     private WebElement autoCompleteLink;
 
+    @FindBy(linkText = "Accent Folding")
+    private WebElement accentFoldingLink;
+
     @FindBy(linkText = "Multiple & Remote")
     private WebElement multipleAndRemoteLink;
 
@@ -64,8 +76,19 @@ public class WebAutomationPage extends BasePage {
     @FindBy (linkText = "Textarea")
     private WebElement textAreaLink;
 
+    public void clickOnNormalIframe(){
+        normalIframe.click();
+    }
+
     public void clickOnSerializeLink(){
         serializeLink.click();
+    }
+
+    public void clickOnDatePickerLink(){
+        datePicker.click();
+    }
+    public void clickOnDisplayMultipleMonthsLink(){
+        displayMultipleMonths.click();
     }
 
     public void clickOnAcceptLink(){
@@ -91,6 +114,10 @@ public class WebAutomationPage extends BasePage {
 
     public void clickOnAutocompleteLink(){
         autoCompleteLink.click();
+    }
+
+    public void clickOnAccentFoldingLink(){
+        accentFoldingLink.click();
     }
     public void clickMultipleAndRemoteLink(){
         multipleAndRemoteLink.click();

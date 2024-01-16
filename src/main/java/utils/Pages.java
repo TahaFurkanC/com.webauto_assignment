@@ -3,7 +3,9 @@ package utils;
 import pages.HomePage;
 import pages.WebAutomationPage;
 import pages.alerts.AlertTypes_Page;
+import pages.autoComplete.AccentFolding;
 import pages.autoComplete.MultipleAndRemote_Page;
+import pages.datePicker.DisplayMultipleMonths;
 import pages.draggable.AutoScrolling_Page;
 import pages.draggable.ConstrainMovement;
 import pages.draggable.Draggable_DefFunc_Page;
@@ -12,6 +14,7 @@ import pages.droppable.AcceptTab;
 import pages.droppable.Droppable_DefFunc_Page;
 import pages.droppable.RevertDraggablePosition;
 import pages.iframe.NestedIframe_Page;
+import pages.iframe.NormalIframe;
 import pages.resizable.Animate_Page;
 import pages.resizable.Resizable_DefFunc_Page;
 import pages.resizable.SynchronousResize;
@@ -38,7 +41,11 @@ public class Pages {
     private HomePage homePage;
 
     private MultipleAndRemote_Page multipleAndRemotePage;
+
+    private AccentFolding accentFolding;
     private NestedIframe_Page nestedIframePage;
+
+    private NormalIframe normalIframe;
 
     private Resizable_DefFunc_Page resizableDefFuncPage;
 
@@ -57,7 +64,12 @@ public class Pages {
     private HandlesTab handlesTab;
 
     private AcceptTab acceptTab;
+
+    private DisplayMultipleMonths displayMultipleMonths;
     public Pages() {
+        displayMultipleMonths = new DisplayMultipleMonths();
+        accentFolding = new AccentFolding();
+        normalIframe = new NormalIframe();
         serializePage = new SerializePage();
         handlesTab = new HandlesTab();
         revertDraggablePosition = new RevertDraggablePosition();
@@ -78,6 +90,16 @@ public class Pages {
         acceptTab = new AcceptTab();
     }
 
+    public AccentFolding getAccentFolding(){
+        return accentFolding;
+    }
+    public DisplayMultipleMonths getDisplayMultipleMonths(){
+        return displayMultipleMonths;
+    }
+
+    public NormalIframe getNormalIframe(){
+        return normalIframe;
+    }
     public SerializePage getSerializePage(){
         return serializePage;
     }
@@ -146,4 +168,7 @@ public class Pages {
         return multipleAndRemotePage;
     }
 
+    public NormalIframe getNormalPage() {
+        return normalIframe;
+    }
 }

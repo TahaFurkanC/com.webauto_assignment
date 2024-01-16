@@ -3,6 +3,7 @@ package droppableTest;
 import BaseTest.Hooks;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import utils.BrowserUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,6 +20,7 @@ public class AcceptTest extends Hooks {
         pages.getWebAutomationPage().clickOnAcceptLink();
 
         //4- Try drag and drop to nonDroppable element to the box
+        BrowserUtils.wait(2);
         String initialBoxMessageForFirstBox = pages.getAcceptTab().getTitleOfBox();
         pages.getAcceptTab().dragAndDropNonDroppableElement();
         String finalBoxMessageForFirstBox = pages.getAcceptTab().getTitleOfBox();
