@@ -22,6 +22,9 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Datepicker")
     private WebElement datePicker;
 
+    @FindBy(linkText = "Select Date Range")
+    private WebElement selectDateRange;
+
     @FindBy(linkText = "Display Multiple Months")
     private WebElement displayMultipleMonths;
 
@@ -75,7 +78,28 @@ public class WebAutomationPage extends BasePage {
 
     @FindBy (linkText = "Textarea")
     private WebElement textAreaLink;
+    @FindBy(linkText = "Control Group")
+    private WebElement controlGroup;
+    @FindBy(linkText = "Progress Bar")
+    private WebElement progressBar;
 
+    @FindBy(linkText = "Download Dialog")
+    private WebElement downloadDialog;
+
+    public void clickOnDownloadDialog(){
+        downloadDialog.click();
+    }
+    public void clickOnProgressBar(){
+        progressBar.click();
+    }
+
+    public void clickOnControlGroup(){
+        controlGroup.click();
+    }
+
+    public void clickOnSelectDateRange(){
+        selectDateRange.click();
+    }
     public void clickOnNormalIframe(){
         normalIframe.click();
     }

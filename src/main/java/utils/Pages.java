@@ -1,11 +1,14 @@
 package utils;
 
 import pages.HomePage;
+import pages.ProgressBar.DownloadDialogTab;
 import pages.WebAutomationPage;
 import pages.alerts.AlertTypes_Page;
 import pages.autoComplete.AccentFolding;
 import pages.autoComplete.MultipleAndRemote_Page;
+import pages.controlGroup.ToolbarTab;
 import pages.datePicker.DisplayMultipleMonths;
+import pages.datePicker.SelectDateRangeTab;
 import pages.draggable.AutoScrolling_Page;
 import pages.draggable.ConstrainMovement;
 import pages.draggable.Draggable_DefFunc_Page;
@@ -66,7 +69,15 @@ public class Pages {
     private AcceptTab acceptTab;
 
     private DisplayMultipleMonths displayMultipleMonths;
+
+    private SelectDateRangeTab selectDateRangeTab;
+    private DownloadDialogTab downloadDialogTab;
+
+    private ToolbarTab toolbarTab;
     public Pages() {
+        toolbarTab = new ToolbarTab();
+        downloadDialogTab = new DownloadDialogTab();
+        selectDateRangeTab = new SelectDateRangeTab();
         displayMultipleMonths = new DisplayMultipleMonths();
         accentFolding = new AccentFolding();
         normalIframe = new NormalIframe();
@@ -88,6 +99,17 @@ public class Pages {
         synchronousResize = new SynchronousResize();
         textAreaPage = new TextAreaPage();
         acceptTab = new AcceptTab();
+    }
+
+    public ToolbarTab getToolbarTab() {
+        return toolbarTab;
+    }
+
+    public DownloadDialogTab getDownloadDialogTab(){
+        return downloadDialogTab;
+    }
+    public SelectDateRangeTab getSelectDateRangeTab() {
+        return selectDateRangeTab;
     }
 
     public AccentFolding getAccentFolding(){

@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
 
 public class DisplayMultipleMonths extends BasePage {
-    @FindBy(xpath = "//input[@id='datepicker-multiple-months']")
+    @FindBy(id = "datepicker-multiple-months")
     private WebElement inputSection;
 
     @FindBy(xpath = "//body[1]/div[8]/div[1]/table[1]/tbody[1]/tr[2]/td[7]/a[1]")
