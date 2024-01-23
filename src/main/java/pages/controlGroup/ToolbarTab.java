@@ -47,8 +47,5 @@ public class ToolbarTab extends BasePage {
     public void clickOnUButton(){
         buttons.get(2).click();
     }
-    public void clickOnPrintButton(){
-        buttons.get(3).click();
-    }
 
 }

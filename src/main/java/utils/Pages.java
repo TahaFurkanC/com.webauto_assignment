@@ -1,7 +1,8 @@
 package utils;
 
+import pages.Dialog.ModalForm;
 import pages.HomePage;
-import pages.ProgressBar.DownloadDialogTab;
+import pages.progressBar.DownloadDialogTab;
 import pages.WebAutomationPage;
 import pages.alerts.AlertTypes_Page;
 import pages.autoComplete.AccentFolding;
@@ -18,14 +19,15 @@ import pages.droppable.Droppable_DefFunc_Page;
 import pages.droppable.RevertDraggablePosition;
 import pages.iframe.NestedIframe_Page;
 import pages.iframe.NormalIframe;
+import pages.menu.Icons;
 import pages.resizable.Animate_Page;
 import pages.resizable.Resizable_DefFunc_Page;
 import pages.resizable.SynchronousResize;
 import pages.resizable.TextAreaPage;
 import pages.selectable.Selectable_DefFunc_Page;
 import pages.selectable.SerializePage;
-
-import java.awt.*;
+import pages.slider.SnapToIncrements;
+import pages.spinner.SpinnerOverflow;
 
 public class Pages {
 
@@ -69,12 +71,20 @@ public class Pages {
     private AcceptTab acceptTab;
 
     private DisplayMultipleMonths displayMultipleMonths;
-
     private SelectDateRangeTab selectDateRangeTab;
     private DownloadDialogTab downloadDialogTab;
-
     private ToolbarTab toolbarTab;
+    private Icons icons;
+    private ModalForm modalForm;
+
+    private SnapToIncrements snapToIncrements;
+
+    private SpinnerOverflow spinnerOverflow;
     public Pages() {
+        spinnerOverflow = new SpinnerOverflow();
+        snapToIncrements = new SnapToIncrements();
+        modalForm = new ModalForm();
+        icons = new Icons();
         toolbarTab = new ToolbarTab();
         downloadDialogTab = new DownloadDialogTab();
         selectDateRangeTab = new SelectDateRangeTab();
@@ -99,6 +109,19 @@ public class Pages {
         synchronousResize = new SynchronousResize();
         textAreaPage = new TextAreaPage();
         acceptTab = new AcceptTab();
+    }
+
+    public SpinnerOverflow getSpinnerOverflow(){
+        return  spinnerOverflow;
+    }
+    public SnapToIncrements getSnapToIncrements(){
+        return snapToIncrements;
+    }
+    public ModalForm getModalForm(){
+        return modalForm;
+    }
+    public Icons getIcons(){
+        return icons;
     }
 
     public ToolbarTab getToolbarTab() {

@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13b756a8-9382-4a9f-bc1a-a1cd6ae71dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProgressBar/DownloadDialogTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/datePicker/SelectDateRangeTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolbarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/progressBar/DownloadDialogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Dialog/ModalForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/menu/Icons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/slider/SnapToIncrements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dialogTest/ModalFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/menuTest/IconsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SnapToIncrementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverflowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProgressBar/DownloadDialogTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownloadDialogTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebAutomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebAutomationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/datePicker/DisplayMultipleMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/datePicker/DisplayMultipleMonths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolbarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolbarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/progressBar/DownloadDialogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/progressBar/DownloadDialogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,81 +59,82 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/workspace/com.webautomation&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DisplayMultipleMonthsTest.displayMultipleMonthsTest">
-    <configuration name="AccentFoldingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpinnerOverflowTest.spinnerOverFlowTest">
+    <configuration name="DownloadDialogTest.downloadDialogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="autoCompleteTest.*" />
+          <option name="PATTERN" value="progressBar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="autoCompleteTest" />
-      <option name="MAIN_CLASS_NAME" value="autoCompleteTest.AccentFoldingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccentFoldingTest.accentFoldingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.webauto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="autoCompleteTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="autoCompleteTest" />
-      <option name="MAIN_CLASS_NAME" value="autoCompleteTest.AccentFoldingTest" />
-      <option name="METHOD_NAME" value="accentFoldingTest" />
+      <option name="PACKAGE_NAME" value="progressBar" />
+      <option name="MAIN_CLASS_NAME" value="progressBar.DownloadDialogTest" />
+      <option name="METHOD_NAME" value="downloadDialogTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayMultipleMonthsTest.displayMultipleMonthsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModalFormTest.modalFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datePickerTest.*" />
+          <option name="PATTERN" value="dialogTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datePickerTest" />
-      <option name="MAIN_CLASS_NAME" value="datePickerTest.DisplayMultipleMonthsTest" />
-      <option name="METHOD_NAME" value="displayMultipleMonthsTest" />
+      <option name="PACKAGE_NAME" value="dialogTest" />
+      <option name="MAIN_CLASS_NAME" value="dialogTest.ModalFormTest" />
+      <option name="METHOD_NAME" value="modalFormTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalIframeTest.normalIframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SnapToIncrementsTest.snapToIncrementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iframeTest.*" />
+          <option name="PATTERN" value="slider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iframeTest" />
-      <option name="MAIN_CLASS_NAME" value="iframeTest.NormalIframeTest" />
-      <option name="METHOD_NAME" value="normalIframeTest" />
+      <option name="PACKAGE_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="slider.SnapToIncrementsTest" />
+      <option name="METHOD_NAME" value="snapToIncrementsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalIframe_Test.nomralIframeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpinnerOverflowTest.spinnerOverFlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iframeTest.*" />
+          <option name="PATTERN" value="spinner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iframeTest" />
-      <option name="MAIN_CLASS_NAME" value="iframeTest.NormalIframe_Test" />
-      <option name="METHOD_NAME" value="nomralIframeTest" />
+      <option name="PACKAGE_NAME" value="spinner" />
+      <option name="MAIN_CLASS_NAME" value="spinner.SpinnerOverflowTest" />
+      <option name="METHOD_NAME" value="spinnerOverFlowTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolbarTest.toolbarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.webauto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controlGroupTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controlGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="controlGroupTest.ToolbarTest" />
+      <option name="METHOD_NAME" value="toolbarTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DisplayMultipleMonthsTest.displayMultipleMonthsTest" />
-        <item itemvalue="JUnit.AccentFoldingTest.accentFoldingTest" />
-        <item itemvalue="JUnit.AccentFoldingTest" />
-        <item itemvalue="JUnit.NormalIframe_Test.nomralIframeTest" />
-        <item itemvalue="JUnit.NormalIframeTest.normalIframeTest" />
+        <item itemvalue="JUnit.SpinnerOverflowTest.spinnerOverFlowTest" />
+        <item itemvalue="JUnit.SnapToIncrementsTest.snapToIncrementsTest" />
+        <item itemvalue="JUnit.ModalFormTest.modalFormTest" />
+        <item itemvalue="JUnit.ToolbarTest.toolbarTest" />
+        <item itemvalue="JUnit.DownloadDialogTest.downloadDialogTest" />
       </list>
     </recent_temporary>
   </component>

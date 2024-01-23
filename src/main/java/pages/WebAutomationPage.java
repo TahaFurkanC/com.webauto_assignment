@@ -86,6 +86,53 @@ public class WebAutomationPage extends BasePage {
     @FindBy(linkText = "Download Dialog")
     private WebElement downloadDialog;
 
+    @FindBy(linkText = "Menu")
+    private WebElement menuTab;
+
+    @FindBy(linkText = "Icons")
+    private WebElement iconsTab;
+
+    @FindBy(linkText = "Dialog")
+    private WebElement dialogTab;
+
+    @FindBy(linkText = "Modal Form")
+    private WebElement modalForm;
+
+    @FindBy(linkText = "Slider")
+    private WebElement slider;
+    @FindBy(linkText = "Snap to increments")
+    private WebElement snapToIncrements;
+    @FindBy(linkText = "Spinner")
+    private WebElement spinner;
+
+    @FindBy(linkText = "Spinner Overflow")
+    private WebElement spinnerOverflowTab;
+
+    public void clickOnSpinnerOverFlowTab(){
+        spinnerOverflowTab.click();
+    }
+
+    public void clickOnSpinnerTab(){
+        spinner.click();
+    }
+    public void clickOnSnapToIncrements(){
+        snapToIncrements.click();
+    }
+    public void clickOnSlider(){
+        slider.click();
+    }
+    public void clickOnModalFormTab(){
+        modalForm.click();
+    }
+    public void clickOnDialogTab(){
+        dialogTab.click();
+    }
+    public void clickOnIconsTab(){
+        iconsTab.click();
+    }
+    public void clickOnMenuTab(){
+        menuTab.click();
+    }
     public void clickOnDownloadDialog(){
         downloadDialog.click();
     }
