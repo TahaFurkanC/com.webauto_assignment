@@ -5,22 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13b756a8-9382-4a9f-bc1a-a1cd6ae71dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Dialog/ModalForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/menu/Icons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/slider/SnapToIncrements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/spinner/SpinnerOverflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dialogTest/ModalFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/menuTest/IconsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SnapToIncrementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverflowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/accordion/CollapseContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/checkboxRadio/ProductSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/sortable/DisplayAsGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accordion/CollapseContentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/checkboxRadioTests/ProductSelectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datePickerTest/selectDateRangeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProgressBar/DownloadDialogTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/progressBar/DownloadDialogTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Dialog/ModalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/dialog/ModalForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebAutomationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebAutomationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/controlGroup/ToolbarTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/datePicker/DisplayMultipleMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/datePicker/DisplayMultipleMonths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/datePicker/SelectDateRangeTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/datePicker/SelectDateRangeTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsTest/AlertTypes_ShowAlert_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsTest/AlertTypes_ShowAlert_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsTest/ShowConfirmTabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsTest/ShowConfirmTabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alertsTest/ShowPromptTabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alertsTest/ShowPromptTabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoCompleteTest/AccentFoldingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoCompleteTest/AccentFoldingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoCompleteTest/AutoCompleteMultiRemoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoCompleteTest/AutoCompleteMultiRemoteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolbarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controlGroupTest/ToolbarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datePickerTest/DisplayMultipleMonthsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datePickerTest/DisplayMultipleMonthsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dialogTest/ModalFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dialogTest/ModalFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggableTests/ConstrainMovementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggableTests/ConstrainMovementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggableTests/Draggable_AutoScrolling_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggableTests/Draggable_AutoScrolling_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggableTests/Draggable_Def_Functionality_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggableTests/Draggable_Def_Functionality_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/draggableTests/HandlesTabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/draggableTests/HandlesTabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/AcceptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/Droppable_Def_Func_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/Droppable_Def_Func_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/droppableTest/RevertDraggablePositionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/iframeTest/NestedIframe_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iframeTest/NestedIframe_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/iframeTest/NormalIframe_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/iframeTest/NormalIframe_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/menuTest/IconsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menuTest/IconsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/progressBar/DownloadDialogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/progressBar/DownloadDialogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resizableTest/Animate_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resizableTest/Animate_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resizableTest/Resizable_DefFunc_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resizableTest/Resizable_DefFunc_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resizableTest/SynchronousResizeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resizableTest/SynchronousResizeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resizableTest/TextAreaPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resizableTest/TextAreaPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selectableTest/Selectable_DefFunc_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selectableTest/Selectable_DefFunc_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selectableTest/SerializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selectableTest/SerializeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/slider/SnapToIncrementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/slider/SnapToIncrementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverflowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spinner/SpinnerOverflowTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,50 +83,50 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/workspace/com.webautomation&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SpinnerOverflowTest.spinnerOverFlowTest">
-    <configuration name="DownloadDialogTest.downloadDialogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProductSelectorTest.productSelectorTest">
+    <configuration name="CollapseContentTest.collapseContentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="progressBar.*" />
+          <option name="PATTERN" value="accordion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="progressBar" />
-      <option name="MAIN_CLASS_NAME" value="progressBar.DownloadDialogTest" />
-      <option name="METHOD_NAME" value="downloadDialogTest" />
+      <option name="PACKAGE_NAME" value="accordion" />
+      <option name="MAIN_CLASS_NAME" value="accordion.CollapseContentTest" />
+      <option name="METHOD_NAME" value="collapseContentTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModalFormTest.modalFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisplayMultipleMonthsTest.displayMultipleMonthsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dialogTest.*" />
+          <option name="PATTERN" value="datePickerTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dialogTest" />
-      <option name="MAIN_CLASS_NAME" value="dialogTest.ModalFormTest" />
-      <option name="METHOD_NAME" value="modalFormTest" />
+      <option name="PACKAGE_NAME" value="datePickerTest" />
+      <option name="MAIN_CLASS_NAME" value="datePickerTest.DisplayMultipleMonthsTest" />
+      <option name="METHOD_NAME" value="displayMultipleMonthsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnapToIncrementsTest.snapToIncrementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductSelectorTest.productSelectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slider.*" />
+          <option name="PATTERN" value="checkboxRadioTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="slider" />
-      <option name="MAIN_CLASS_NAME" value="slider.SnapToIncrementsTest" />
-      <option name="METHOD_NAME" value="snapToIncrementsTest" />
+      <option name="PACKAGE_NAME" value="checkboxRadioTests" />
+      <option name="MAIN_CLASS_NAME" value="checkboxRadioTests.ProductSelectorTest" />
+      <option name="METHOD_NAME" value="productSelectorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,17 +148,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolbarTest.toolbarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="selectDateRangeTest.testSelectDateRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.webauto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controlGroupTest.*" />
+          <option name="PATTERN" value="datePickerTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="controlGroupTest" />
-      <option name="MAIN_CLASS_NAME" value="controlGroupTest.ToolbarTest" />
-      <option name="METHOD_NAME" value="toolbarTest" />
+      <option name="PACKAGE_NAME" value="datePickerTest" />
+      <option name="MAIN_CLASS_NAME" value="datePickerTest.selectDateRangeTest" />
+      <option name="METHOD_NAME" value="testSelectDateRange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductSelectorTest.productSelectorTest" />
+        <item itemvalue="JUnit.CollapseContentTest.collapseContentTest" />
+        <item itemvalue="JUnit.selectDateRangeTest.testSelectDateRange" />
+        <item itemvalue="JUnit.DisplayMultipleMonthsTest.displayMultipleMonthsTest" />
         <item itemvalue="JUnit.SpinnerOverflowTest.spinnerOverFlowTest" />
-        <item itemvalue="JUnit.SnapToIncrementsTest.snapToIncrementsTest" />
-        <item itemvalue="JUnit.ModalFormTest.modalFormTest" />
-        <item itemvalue="JUnit.ToolbarTest.toolbarTest" />
-        <item itemvalue="JUnit.DownloadDialogTest.downloadDialogTest" />
       </list>
     </recent_temporary>
   </component>

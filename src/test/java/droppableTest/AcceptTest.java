@@ -1,7 +1,6 @@
 package droppableTest;
 
-import BaseTest.Hooks;
-import org.assertj.core.api.Assertions;
+import baseTest.Hooks;
 import org.junit.jupiter.api.Test;
 import utils.BrowserUtils;
 

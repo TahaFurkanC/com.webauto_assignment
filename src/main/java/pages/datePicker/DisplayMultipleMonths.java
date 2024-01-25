@@ -4,20 +4,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
 
+import java.util.List;
+
 public class DisplayMultipleMonths extends BasePage {
     @FindBy(id = "datepicker-multiple-months")
     private WebElement inputSection;
 
-    @FindBy(xpath = "//body[1]/div[8]/div[1]/table[1]/tbody[1]/tr[2]/td[7]/a[1]")
-    private WebElement elevenMarch;
+    @FindBy(css = ".ui-datepicker-group.ui-datepicker-group-first> .ui-datepicker-calendar>tbody>tr>td>a")
+    private List<WebElement> januaryDays;
 
     public String getInputSection(){
-        return inputSection.getText();
+        return inputSection.getAttribute("value");
     }
     public void clickOnInputSection(){
         inputSection.click();
     }
-    public void clickOnElevenMarch(){
-        elevenMarch.click();
+    public void clickOnJanuaryDays(int i){
+        januaryDays.get(i).click();
     }
 }

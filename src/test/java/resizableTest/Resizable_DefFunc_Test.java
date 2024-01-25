@@ -1,6 +1,6 @@
 package resizableTest;
 
-import BaseTest.Hooks;
+import baseTest.Hooks;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

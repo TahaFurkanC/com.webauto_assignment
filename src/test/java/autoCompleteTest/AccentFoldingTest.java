@@ -1,6 +1,6 @@
 package autoCompleteTest;
 
-import BaseTest.Hooks;
+import baseTest.Hooks;
 import org.junit.jupiter.api.Test;
 import utils.BrowserUtils;
 

@@ -1,7 +1,9 @@
 package utils;
 
-import pages.Dialog.ModalForm;
+import pages.dialog.ModalForm;
 import pages.HomePage;
+import pages.accordion.CollapseContent;
+import pages.checkboxRadio.ProductSelector;
 import pages.progressBar.DownloadDialogTab;
 import pages.WebAutomationPage;
 import pages.alerts.AlertTypes_Page;
@@ -27,10 +29,12 @@ import pages.resizable.TextAreaPage;
 import pages.selectable.Selectable_DefFunc_Page;
 import pages.selectable.SerializePage;
 import pages.slider.SnapToIncrements;
+import pages.sortable.DisplayAsGrid;
 import pages.spinner.SpinnerOverflow;
 
 public class Pages {
 
+    private ProductSelector productSelector;
     private AlertTypes_Page alertTypesPage;
 
     private Animate_Page animatePage;
@@ -80,7 +84,13 @@ public class Pages {
     private SnapToIncrements snapToIncrements;
 
     private SpinnerOverflow spinnerOverflow;
+
+    private CollapseContent collapseContent;
+    private DisplayAsGrid displayAsGrid;
     public Pages() {
+        displayAsGrid = new DisplayAsGrid();
+        productSelector = new ProductSelector();
+        collapseContent = new CollapseContent();
         spinnerOverflow = new SpinnerOverflow();
         snapToIncrements = new SnapToIncrements();
         modalForm = new ModalForm();
@@ -110,7 +120,16 @@ public class Pages {
         textAreaPage = new TextAreaPage();
         acceptTab = new AcceptTab();
     }
+    public DisplayAsGrid getDisplayAsGrid(){
+        return displayAsGrid;
+    }
 
+    public ProductSelector getProductSelector(){
+        return productSelector;
+    }
+    public CollapseContent getCollapseContent(){
+        return collapseContent;
+    }
     public SpinnerOverflow getSpinnerOverflow(){
         return  spinnerOverflow;
     }
@@ -215,5 +234,9 @@ public class Pages {
 
     public NormalIframe getNormalPage() {
         return normalIframe;
+    }
+
+    public SelectDateRangeTab getSelectDateRange() {
+        return selectDateRangeTab;
     }
 }

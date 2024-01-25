@@ -1,6 +1,6 @@
 package datePickerTest;
 
-import BaseTest.Hooks;
+import baseTest.Hooks;
 import org.junit.jupiter.api.Test;
 import utils.BrowserUtils;
 
@@ -21,11 +21,12 @@ public class DisplayMultipleMonthsTest extends Hooks {
 
         BrowserUtils.wait(2);
 
-        pages.getDisplayMultipleMonths().clickOnElevenMarch();
+        pages.getDisplayMultipleMonths().clickOnJanuaryDays(14);
 
         BrowserUtils.wait(4);
         String date = pages.getDisplayMultipleMonths().getInputSection();
+        System.out.println(date);
 
-        assertEquals("03/11/2024",date,"when click on the 11 march 2024 it must show 03/11/2024");
+        assertEquals("01/15/2024",date,"when click on the 15 January 2024 it must show 01/15/2024");
     }
 }

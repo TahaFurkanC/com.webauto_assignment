@@ -1,6 +1,5 @@
-package BaseTest;
+package baseTest;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import utils.Driver;
 import utils.Pages;
